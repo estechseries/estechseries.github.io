@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Agency - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <style>
+            .center {
+              float: right;
+              width: 300px;
+              padding: 10px;
+            }
+
+              svg {
+                display: block;
+              margin-left: auto;
+              margin-right: auto;
+              }
+
+                video {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+
+            header {
+              position: relative;
+              background-color: black;
+              height: 75vh;
+              min-height: 25rem;
+              width: 100%;
+              overflow: hidden;
+            }
+
+            header video {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              min-width: 100%;
+              min-height: 100%;
+              width: auto;
+              height: auto;
+              z-index: 0;
+              -ms-transform: translateX(-50%) translateY(-50%);
+              -moz-transform: translateX(-50%) translateY(-50%);
+              -webkit-transform: translateX(-50%) translateY(-50%);
+              transform: translateX(-50%) translateY(-50%);
+            }
+
+            header .container {
+              position: relative;
+              z-index: 2;
+            }
+
+            header .overlay {
+              position: absolute;
+              top: 0;
+              left: 0;
+              height: 100%;
+              width: 100%;
+              background-color: grey;
+              opacity: 0.5;
+              z-index: 1;
+            }
+
+            @media (pointer: coarse) and (hover: none) {
+              header {
+                background: url('https://github.com/estechseries/estechseries.github.io.git/blob/master/img/computer.png') black no-repeat center center scroll;
+              }
+              header video {
+                display: none;
+              }
+            }
+              </style>
+
+    </head>
+
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#call">Call for submissions</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#papers">Papers</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resources">Resources</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#partners">Partners</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="overlay" align=center></div>
+                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                    <source src="img/computer.mp4" type="video/mp4">
+                </video>
+            <div class="container">
+                <div class="masthead-heading text-uppercase">Evidence Synthesis Technology</div>
+                <div class="masthead-subheading">A joint special series of papers from the Collaboration for Environmental Evidence and the Campbell Collaboration</div>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">Find out more</a>
+            </div>
+        </header>
+
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About the series</h2>
+                    <br>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-users fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">EIDM</h4>
+                        <p class="text-muted">Evidence syntheses (rigorous systematic reviews and maps) are a vital part of evidence-informed decision-making (EIDM).</p>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-chart-line fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">The problem</h4>
+                        <p class="text-muted">The continued growth of published research increasingly challenges efficient and timely evidence synthesis.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-tools fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">ESTech</h4>
+                        <p class="text-muted">Until now, tools to support evidence synthesis have been developed in isolation, with little collaboration or coordination.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-tools fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">This series</h4>
+                        <p class="text-muted">This series is a collection of papers discussing, introducing, and validating evidence synthesis tools and frameworks.</p>
+                    </div>
+                </div>
+                <div class="timeline-body">
+                    <br>
+                    <br>
+                    <p class="text-muted">Evidence synthesis is a vital part of evidence-informed decision-making, but the seemingly exponential growth in the volume of research evidence over the last few decades will make efficient evidence synthesis increasingly challenging because of the necessary workloads.</p>
+                    <p class="text-muted">As the appreciation and need for timely and rigorous evidence synthesis continue to grow, so too will the need for tools and frameworks to conduct reviews of expanding evidence bases in an efficient and time-sensitive manner.</p>
+                    <p class="text-muted">Efforts to future-proof evidence synthesis through such Evidence Synthesis Technology (ESTech) have so far been isolated across interested individuals or groups, with no concerted effort to collaborate or build communities of practice in technology production.</p>
+                    <p class="text-muted">We established the <a href="https://www.eshackathon.org" target="_blank">Evidence Synthesis Hackathon</a> to stimulate collaboration and the production of Free and Open Source Software and frameworks to support evidence synthesis.</p>
+                    <p class="text-muted">Here, we introduce a special series of papers on ESTech, and invite the readers of <a href="https://environmentalevidencejournal.biomedcentral.com/" target="_blank">Environmental Evidence</a> and <a href="https://onlinelibrary.wiley.com/journal/18911803" target="_blank">Campbell Systematic Reviews</a> to submit manuscripts introducing and validating novel evidence synthesis tools and frameworks. We hope this collection will help to consolidate ESTech development efforts and we encourage readers to join the ESTech revolution.</p>
+                    <p class="text-muted">In order to future-proof evidence synthesis against the evidence avalanche, we believe that we must spark interest in ESTech, reduce redundancy in tool design, collaborate and share capacity in tool production, and reduce equality in tool accessibility.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Call for submissions-->
+        <section class="page-section bg-light" id="call">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Call for submissions</h2>
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-bullhorn fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="timeline-body">
+                    <br>
+                <p class="text-muted">We welcome the submission of commentaries, methodology papers, and research articles that describe issues related to ESTech, or that introduce and validate novel frameworks, tools and techniques to support efficient and rigorous evidence synthesis. We hope this collection will help to consolidate ESTech development efforts and we encourage readers to join the ESTech revolution. We encourage papers that fulfil the following criteria:</p>
+                <ul class="text-muted">
+                    <li><i>Technologies that fill a real gap</i>: i.e., it should introduce a new tool that did not previously exist; or, make an existing tool much easier to use or make it available to a new audience.</li>
+                    <br>
+                    <li><i>Technologies that are broadly accessible</i>, as appropriate for the tool in question: i.e. they should pass standard checks to ensure they work across a range of operating systems or computational contexts; they must be free-to-use (or means-based, e.g. free for low- and middle- income country users) and preferably Open Source.</li>
+                    </ul>
+                    <br>
+                    <p class="text-muted">All submissions that meet these criteria will be considered, regardless of whether they include software or research from ESH events. Moreover, while many within the evidence synthesis community already share some or all of the goals that we have discussed, we call on the readers of Environmental Evidence to embrace ESTech and these ideals and goals in their future work.</p>
+                    <br>
+                    <h4 class="text-muted" style="text-align:center"><a href=#contact class="nav-link js-scroll-trigger">Contact us using the form below to submit an enquiry about your potential manuscript.</a></h4>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Papers-->
+        <section class="page-section" id="papers">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Papers</h2>
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <br>
+                    <h3 class="section-subheading text-muted">Below is a list of all papers published in the series across Environmental Evidence and Campbell Systematic Reviews.</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <a href="" target="_blank"><i class="fas fa-external-link-alt fa-stack-1x fa-inverse fa-3x"></i></a>
+                        </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h6>Creating and curating a community of practice: Introducing the Evidence Synthesis Hackathon and a special series in evidence synthesis technology</h6>
+                                    <p class="text-muted">Haddaway and Westgate (2020)</p>
+                                <div class="timeline-body"><p class="text-muted"><i>Environmental Evidence</i>, xx, xxx.
+                                <br>doi: xxx</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!--
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <a href="" target="_blank"><i class="fas fa-external-link-alt fa-stack-1x fa-inverse fa-3x"></i></a>
+                        </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h6>Creating and curating a community of practice: Introducing the Evidence Synthesis Hackathon and a special series in evidence synthesis technology</h6>
+                                    <p class="text-muted">Haddaway and Westgate (2020)</p>
+                                <div class="timeline-body"><p class="text-muted"><i>Environmental Evidence</i>, xx, xxx.
+                                <br>doi: xxx</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <a href="" target="_blank"><i class="fas fa-external-link-alt fa-stack-1x fa-inverse fa-3x"></i></a>
+                        </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h6>Creating and curating a community of practice: Introducing the Evidence Synthesis Hackathon and a special series in evidence synthesis technology</h6>
+                                    <p class="text-muted">Haddaway and Westgate (2020)</p>
+                                <div class="timeline-body"><p class="text-muted"><i>Environmental Evidence</i>, xx, xxx.
+                                <br>doi: xxx</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <a href="" target="_blank"><i class="fas fa-external-link-alt fa-stack-1x fa-inverse fa-3x"></i></a>
+                        </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h6>Creating and curating a community of practice: Introducing the Evidence Synthesis Hackathon and a special series in evidence synthesis technology</h6>
+                                    <p class="text-muted">Haddaway and Westgate (2020)</p>
+                                <div class="timeline-body"><p class="text-muted"><i>Environmental Evidence</i>, xx, xxx.
+                                <br>doi: xxx</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    -->
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4><a href=#contact style="color:#ffffff" class="nav-link js-scroll-trigger">Submit
+                                <br />
+                                your paper!</a>
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- Resources-->
+        <section class="page-section bg-light" id="resources">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Resources</h2>
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-toolbox fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <br>
+                    <h3 class="section-subheading text-muted">The following resources may be useful for those interested in Evidence Synthesis Technology</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <a href="https://icasr.github.io/" target="_blank"><img class="mx-auto rounded-circle" src="assets/img/team/1.png" alt="" /></a>
+                            <h4>ICASR</h4>
+                            <p>The International Collaboration for the Automation of Systematic Reviews</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <a href="http://systematicreviewtools.com/" target="_blank"><img class="mx-auto rounded-circle" src="assets/img/team/2.png" alt="" /></a>
+                            <h4>Systematic Review Toolbox</h4>
+                            <p>A community-driven, searchable, web-based catalogue of tools supporting systematic review processes</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <a href="https://github.com/rmetaverse/metaverse" target="_blank"><img class="mx-auto rounded-circle" src="assets/img/team/3.png" alt="" /></a>
+                            <h4>Rmetaverse</h4>
+                            <p>An Evidence Synthesis Hackathon project to collect, integrate and expand the universe of available functions for evidence syntheses in R</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+               <!-- Partners-->
+        <div class="py-5" id=partners>
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Partners</h2>
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-link fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-sm-6 my-3">
+                        <a href="http://www.environmentalevidence.org/" target="_blank"><img class="img-fluid d-block mx-auto" src="img/cee_logo.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-md-1 col-sm-6 my-3"></div>
+                    <div class="col-md-2 col-sm-6 my-3">
+                        <a href="https://environmentalevidencejournal.biomedcentral.com/" target="_blank"><img class="img-fluid d-block mx-auto" src="img/eej_logo.png" alt="" /></a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 my-3"></div>
+                    <div class="col-md-2 col-sm-6 my-3">
+                        <a href="https://campbellcollaboration.org/" target="_blank"><img class="img-fluid d-block mx-auto" src="img/campbell_logo.png" alt="" /></a>
+                    </div>
+                    <div class="col-md-1 col-sm-6 my-3"></div>
+                    <div class="col-md-2 col-sm-6 my-3">
+                        <a href="https://onlinelibrary.wiley.com/journal/18911803" target="_blank"><img class="img-fluid d-block mx-auto" src="img/csr_logo.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 my-3"></div>
+                    <div class="col-md-2 col-sm-6 my-3"></div>
+                    <div class="col-md-2 col-sm-6 my-3">
+                        <a href="https://www.eshackathon.org/" target="_blank"><img class="img-fluid d-block mx-auto" src="img/esh_logo.png" alt="" /></a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 my-3"></div>
+                    <div class="col-md-3 col-sm-6 my-3"></div>
+                </div>
+            <div style="height:100px; width:100%; clear:both;"></div>
+            </div>
+        </div>
+
+
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <p class="section-subheading text-white">The special series is being guest edited by Neal Haddaway and Martin Westgate, the cofounders and coodinators of the <a href="https://www.eshackathon.org/" target="_blank">Evidence Synthesis Hackathon</a>.</p>
+                    <br>
+                    <p class="section-subheading text-white">Please use the form below to submit a manuscript for consideration in the series. Please be sure to include all relevant information to aid our decision. As guest editors, we will then pass on your manuscript for consideration by the editorial team and peer-reviewers for either <i>Environmental Evidence</i> or <i>Campbel Systematic Reviews</i>.</p>
+                    <br>
+                </div>
+
+                <p align="center"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSftN8YUgrFMRuIyFJwGoflJ7WfvdRarBjmb4VlWTqp44vR-7w/viewform?embedded=true" width="640" height="1400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+
+                </div>
+                <p></p>
+                <div class="container">
+                <div class="text-center">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="img/nrh.jpg" alt="" />
+                            <h4 class="section-subheading text-white">Neal R Haddaway</h4>
+                            <p class="text-white">Senior Research Fellow, Stockholm Environment Institute</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/nealhaddaway?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://scholar.google.co.uk/citations?user=zABCBMMAAAAJ&hl=en&oi=ao" target="_blank"><i class="ai ai-google-scholar ai-2x"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="mailto:neal.haddaway@sei.org"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="img/mjw.png" alt="" />
+                            <h4 class="section-subheading text-white">Martin J Westgate</h4>
+                            <p class="text-white">Science Advisor, Atlas of Living Australia</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/westgatecology" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://scholar.google.co.uk/citations?user=gsyXAPMAAAAJ&hl=en&oi=ao" target="_blank"><i class="ai ai-google-scholar ai-2x"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="mailto:martin.westgate@anu.edu.au"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
